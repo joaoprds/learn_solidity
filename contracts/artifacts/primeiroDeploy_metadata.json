@@ -6,20 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "alteraEndereco",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_teste",
+						"type": "uint256"
+					}
+				],
+				"name": "alteraValor",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "endereco",
+				"name": "teste",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono1.sol": "Dono"
+			"contracts/PrimeiroDeployTest.sol": "primeiroDeploy"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono1.sol": {
-			"keccak256": "0x3e619f2567317eeba79f709b8eaf180bfc0e23c9551ddd7490a77ed85368cf1e",
+		"contracts/PrimeiroDeployTest.sol": {
+			"keccak256": "0x3f9c72284ffd5684fcf7c5e52eb2dc21ea9b6ed1e05f6946fa17bf427cccc538",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a80c8bec22b68117110d27714e31330f8276c694db7792df3d1df2730e09dad5",
-				"dweb:/ipfs/QmcU9ZmvW42Y3EryE64Zn7ezGvQhAA1vRtatAhjcbi4KJb"
+				"bzz-raw://4b31d3f1ebb0f6e7502d5dc91f2e297d777e1d370d7616d20807e31ad38f4184",
+				"dweb:/ipfs/QmUfDzkPnwNVPpSw2VFMKAuR4GFrtEXTCJG4Dd1uRT61Ji"
 			]
 		}
 	},

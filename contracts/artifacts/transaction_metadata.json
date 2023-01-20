@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TipoInt.sol": "transaction"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TipoInt.sol": {
+			"keccak256": "0x7576d7b810768efa5bf5c9794a1ddcc34dd2929c65fdcd7e4536eebae55538d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://72ba86f1260dd6b5a75a4c12531084ace6054a487726324d59066a87a2ca2946",
+				"dweb:/ipfs/QmQea2qZJrWsYRCP4WSvNtWfqLRiecf68nztqE4Bcak47w"
+			]
+		}
+	},
+	"version": 1
+}

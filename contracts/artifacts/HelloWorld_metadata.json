@@ -7,19 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "alteraEndereco",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "endereco",
+				"name": "name",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono1.sol": "Dono"
+			"contracts/HelloWorld.sol": "HelloWorld"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +46,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono1.sol": {
-			"keccak256": "0x3e619f2567317eeba79f709b8eaf180bfc0e23c9551ddd7490a77ed85368cf1e",
-			"license": "MIT",
+		"contracts/HelloWorld.sol": {
+			"keccak256": "0x9cae060d2033e70e3ba74a4106866169d2c9037a79e6b5611df969d0cba00c79",
 			"urls": [
-				"bzz-raw://a80c8bec22b68117110d27714e31330f8276c694db7792df3d1df2730e09dad5",
-				"dweb:/ipfs/QmcU9ZmvW42Y3EryE64Zn7ezGvQhAA1vRtatAhjcbi4KJb"
+				"bzz-raw://fc53a05db0be6b2f56d9a549093defdbd4dd45405e525a6a1a7df37267487e8d",
+				"dweb:/ipfs/QmQho9PmDpLik8NDbviWuNjjegNN84qNnjBChUWDNmv3P7"
 			]
 		}
 	},

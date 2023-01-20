@@ -7,19 +7,36 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "alteraEndereco",
-				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "heranca",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "endereco",
+				"name": "lerValorDoJoao",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono1.sol": "Dono"
+			"contracts/Heranca.sol": "Heranca"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono1.sol": {
-			"keccak256": "0x3e619f2567317eeba79f709b8eaf180bfc0e23c9551ddd7490a77ed85368cf1e",
+		"contracts/Heranca.sol": {
+			"keccak256": "0x2743b6d35ab356f97122e2925a0d4d044aa50fc3d4606f8eb00b0e2a34746db1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a80c8bec22b68117110d27714e31330f8276c694db7792df3d1df2730e09dad5",
-				"dweb:/ipfs/QmcU9ZmvW42Y3EryE64Zn7ezGvQhAA1vRtatAhjcbi4KJb"
+				"bzz-raw://6472ec4f10fedc7daa5bee18b2a9d8947171dca582195a8e843bc7f7d7294870",
+				"dweb:/ipfs/Qmehusa1S6VFwofhD1ERTJ83KEijzZSogNGvdS1L1XhLRp"
 			]
 		}
 	},

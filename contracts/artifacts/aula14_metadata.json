@@ -7,19 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "alteraEndereco",
+				"name": "alteraNumero",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "endereco",
+				"name": "pegarNumero",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "int256",
 						"name": "",
-						"type": "address"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono1.sol": "Dono"
+			"contracts/Aula14.sol": "aula14"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono1.sol": {
-			"keccak256": "0x3e619f2567317eeba79f709b8eaf180bfc0e23c9551ddd7490a77ed85368cf1e",
+		"contracts/Aula14.sol": {
+			"keccak256": "0x9e3c083b3ec6dd3d84a7af8ba51455e9dbcac88e17921ba7f943f2cda7de1520",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a80c8bec22b68117110d27714e31330f8276c694db7792df3d1df2730e09dad5",
-				"dweb:/ipfs/QmcU9ZmvW42Y3EryE64Zn7ezGvQhAA1vRtatAhjcbi4KJb"
+				"bzz-raw://a8cfbeb967b8a210da03d205097addc32df8644e82f38eb85b2816fb1aad5e79",
+				"dweb:/ipfs/QmejRmrAAHa5mU3tmsdE5ahqmXBrXM87NNE27UY6XEMBBm"
 			]
 		}
 	},

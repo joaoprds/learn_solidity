@@ -7,19 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "alteraEndereco",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "numero",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "endereco",
+				"name": "takeNumber",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "int256",
 						"name": "",
-						"type": "address"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono1.sol": "Dono"
+			"contracts/PegaVariavel.sol": "PegaVariavel"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono1.sol": {
-			"keccak256": "0x3e619f2567317eeba79f709b8eaf180bfc0e23c9551ddd7490a77ed85368cf1e",
+		"contracts/PegaVariavel.sol": {
+			"keccak256": "0xe099231aa320056b4c58e829a029f644508023174f5c2da07dbaffa592a66801",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a80c8bec22b68117110d27714e31330f8276c694db7792df3d1df2730e09dad5",
-				"dweb:/ipfs/QmcU9ZmvW42Y3EryE64Zn7ezGvQhAA1vRtatAhjcbi4KJb"
+				"bzz-raw://7b068df1ac7bf5b7e527dc60a3ce59d61bf554900305e1ea793aae9c1ac3b81d",
+				"dweb:/ipfs/QmdSz6mDcrHD7giW2i7vkmPmB21LjbnP7hnw2XBXtLcQy3"
 			]
 		}
 	},

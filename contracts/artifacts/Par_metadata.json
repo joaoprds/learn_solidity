@@ -6,20 +6,37 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "alteraEndereco",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "par1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "par2",
+						"type": "string"
+					}
+				],
+				"name": "criarPar",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "endereco",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "par",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Dono1.sol": "Dono"
+			"contracts/Par.sol": "Par"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Dono1.sol": {
-			"keccak256": "0x3e619f2567317eeba79f709b8eaf180bfc0e23c9551ddd7490a77ed85368cf1e",
+		"contracts/Par.sol": {
+			"keccak256": "0x4b278f450d776ea87bdac7dfe5b715fe608283a2eb84273d99bd3b12ccc3f343",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a80c8bec22b68117110d27714e31330f8276c694db7792df3d1df2730e09dad5",
-				"dweb:/ipfs/QmcU9ZmvW42Y3EryE64Zn7ezGvQhAA1vRtatAhjcbi4KJb"
+				"bzz-raw://08fb8fd3d2b6ee40ff89f90063ebe0cb5f94e7614200b3fec1652597434214ca",
+				"dweb:/ipfs/QmcBqMSXZjHE66vvo4QNQiNZq7NUeYEFthFxQhZmqmFFrq"
 			]
 		}
 	},
