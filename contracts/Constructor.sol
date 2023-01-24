@@ -9,3 +9,5 @@ contract Constructor{
         name = _name;
     }
 }
+
+// O constructor só é executado na hora do Deploy do contrato, fora isso ele não tem nenhuma serventia 
