@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "retornaInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BlockInfo.sol": "BaseInfo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BlockInfo.sol": {
+			"keccak256": "0x9dc779375231ee4ffba047135c519152c57aae6dc0763befbaa6cf2c82396f1b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d034ea2668853d78fa2e338943565557e14f816eb0b885c2ff42ec15e174274f",
+				"dweb:/ipfs/QmXDDM1GDVfmcHW8BCQkPCmpc2n1MQAKUWSz2B721KHpsa"
+			]
+		}
+	},
+	"version": 1
+}
